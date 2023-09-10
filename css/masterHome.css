@@ -3,7 +3,8 @@
 body {
   margin: 0;
   font-family: Arial;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/test_lib.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.75)),url(../images/test_lib.jpeg);
+  /* background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(../images/lib_background.jpeg); */
   background-size: cover;
   background-position: center;
 }
@@ -16,13 +17,118 @@ body {
       .msg_title{
         margin: 10px;
         text-align: center;
-        color: white;
+        color: black;
       }
 
 
     
+      
+      /* nav bar 1  */
+
+      .navbar1 {
+        height: 20vh;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+      .msg_title1{
+        text-align: center;
+        color: black;
+      }
+
+
+      .logo1 , .logo2 {
+        max-height: 130px;
+        max-width: 100%;
+        vertical-align: middle;
+        margin: 0 15px;
+    }
+
+
+
 
     
+
+.box {
+  height: 35px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  margin: 0 30px;
+}
+
+.box:hover input {
+  width: 200px;
+}
+
+.box input {
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+}
+
+.box a .fa {
+  color: #9BCDD2;
+  font-size: 18px;
+}
+
+    
+
+
+
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 17%;
+  padding: 10px;
+  background: #9BCDD2;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.search_icon{
+  float: right;
+}
+
+
+
+
+
+
 
 
 
@@ -272,6 +378,40 @@ footer * {
 
 
 @media screen and (max-width: 600px) {
+
+  
+  .navbar1 {
+    height: 25vh;
+  }
+
+  .logo1 {
+    max-height: 100px;
+    max-width: 60%;
+    vertical-align: middle;
+    margin: 0 0px;
+}
+
+.logo2{
+  display: none;
+}
+
+
+.box {
+  display: none;
+}
+
+
+
+
+
+form.example input[type=text] {
+  width: 70%;
+}
+
+form.example button {
+  width: 18%;
+}
+
 
  
   .topnav a:not(:first-child), .dropdown .dropbtn {

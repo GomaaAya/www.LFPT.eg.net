@@ -4,6 +4,7 @@ body {
   font-family: Arial;
   background-size: cover;
   background-position: center;
+  background-color: #FFF5E0;
 }
 
 
@@ -14,6 +15,32 @@ body {
   color: black;
 }
 
+
+
+      
+      /* nav bar 1  */
+
+      .navbar1 {
+        height: 20vh;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+      .msg_title1{
+        text-align: center;
+        color: black;
+      }
+
+
+      .logo1 , .logo2 {
+        max-height: 130px;
+        max-width: 100%;
+        vertical-align: middle;
+        margin: 0 15px;
+    }
 
    
 
