@@ -297,7 +297,7 @@ form.example::after {
   text-align: center;
   padding: 5px;
   color: black;
-  margin: 100px auto;
+  margin: 125px auto;
 }
 
 
@@ -381,17 +381,17 @@ footer * {
 
   
   .navbar1 {
-    height: 25vh;
+    height: 35vh;
   }
 
-  .logo1 {
+  /* .logo1 {
     max-height: 100px;
     max-width: 60%;
     vertical-align: middle;
     margin: 0 0px;
-}
+} */
 
-.logo2{
+.logo1 , .logo2{
   display: none;
 }
 
